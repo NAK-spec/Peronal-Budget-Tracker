@@ -122,7 +122,7 @@ class CategoryBudgetTracker(BudgetTracker):
 
     # Print category summary
     def print_category_summary(self):
-        print("\nCategory-wise Spending:")
+        print("\nCategory-wise Spending:") # new update
         for cat, amt in self.categories.items():
             print(f"{cat}: UGX {amt:.2f}")
 
