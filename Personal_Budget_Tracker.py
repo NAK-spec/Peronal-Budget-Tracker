@@ -83,7 +83,7 @@ class BudgetTracker:
                     print("Amount cannot be negative.")
                     continue
             except ValueError:
-                print("Invalid amount. Please enter a number.")
+                print("Invalid amount. Please enter a number.") # new update 
                 continue
 
             self.add_transaction(description, amount)
